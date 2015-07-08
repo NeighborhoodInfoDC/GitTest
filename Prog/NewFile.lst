@@ -1,0 +1,35 @@
+                                        The SAS System          22:39 Tuesday, July 7, 2015   1
+
+                                    The CONTENTS Procedure
+
+      Data Set Name        WORK.A                                Observations          1 
+      Member Type          DATA                                  Variables             1 
+      Engine               V9                                    Indexes               0 
+      Created              Tuesday, July 07, 2015 10:39:32 PM    Observation Length    8 
+      Last Modified        Tuesday, July 07, 2015 10:39:32 PM    Deleted Observations  0 
+      Protection                                                 Compressed            NO
+      Data Set Type                                              Sorted                NO
+      Label                                                                              
+      Data Representation  WINDOWS_64                                                    
+      Encoding             wlatin1  Western (Windows)                                    
+
+
+                               Engine/Host Dependent Information
+
+Data Set Page Size          4096                                                               
+Number of Data Set Pages    1                                                                  
+First Data Page             1                                                                  
+Max Obs per Page            501                                                                
+Obs in First Data Page      1                                                                  
+Number of Data Set Repairs  0                                                                  
+Filename                    C:\Users\Peter\AppData\Local\Temp\SAS                              
+                            Temporary Files\_TD5980\a.sas7bdat                                 
+Release Created             9.0202M3                                                           
+Host Created                X64_VSHOME                                                         
+
+
+                          Alphabetic List of Variables and Attributes
+ 
+                                 #    Variable    Type    Len
+
+                                 1    x           Num       8

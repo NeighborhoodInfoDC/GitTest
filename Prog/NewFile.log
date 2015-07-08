@@ -1,0 +1,40 @@
+1                                       The SAS System              22:39 Tuesday, July 7, 2015
+
+NOTE: Copyright (c) 2002-2008 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.2 (TS2M3) 
+      Licensed to THE URBAN INSTITUTE, Site 70097024.
+NOTE: This session is executing on the X64_VSHOME  platform.
+
+
+
+NOTE: SAS initialization used:
+      real time           2.60 seconds
+      cpu time            1.13 seconds
+      
+1          ** This is a draft SAS program **;
+2          data A;
+3           x = 1;
+4          run;
+
+NOTE: The data set WORK.A has 1 observations and 1 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.28 seconds
+      cpu time            0.12 seconds
+      
+
+5          
+6          ** Adding some new code **;
+7          proc contents data=A;
+8          run;
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.60 seconds
+      cpu time            0.21 seconds
+      
+NOTE: The PROCEDURE CONTENTS printed page 1.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: The SAS System used:
+      real time           3.60 seconds
+      cpu time            1.49 seconds
+      
