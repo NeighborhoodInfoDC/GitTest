@@ -1,12 +1,12 @@
-                                        The SAS System          22:39 Tuesday, July 7, 2015   1
+                                        The SAS System          22:42 Tuesday, July 7, 2015   1
 
                                     The CONTENTS Procedure
 
       Data Set Name        WORK.A                                Observations          1 
       Member Type          DATA                                  Variables             1 
       Engine               V9                                    Indexes               0 
-      Created              Tuesday, July 07, 2015 10:39:32 PM    Observation Length    8 
-      Last Modified        Tuesday, July 07, 2015 10:39:32 PM    Deleted Observations  0 
+      Created              Tuesday, July 07, 2015 10:42:53 PM    Observation Length    8 
+      Last Modified        Tuesday, July 07, 2015 10:42:53 PM    Deleted Observations  0 
       Protection                                                 Compressed            NO
       Data Set Type                                              Sorted                NO
       Label                                                                              
@@ -23,7 +23,7 @@ Max Obs per Page            501
 Obs in First Data Page      1                                                                  
 Number of Data Set Repairs  0                                                                  
 Filename                    C:\Users\Peter\AppData\Local\Temp\SAS                              
-                            Temporary Files\_TD5980\a.sas7bdat                                 
+                            Temporary Files\_TD5404\a.sas7bdat                                 
 Release Created             9.0202M3                                                           
 Host Created                X64_VSHOME                                                         
 
@@ -33,3 +33,13 @@ Host Created                X64_VSHOME
                                  #    Variable    Type    Len
 
                                  1    x           Num       8
+                                        The SAS System          22:42 Tuesday, July 7, 2015   2
+
+                                      The MEANS Procedure
+
+                                     Analysis Variable : x 
+ 
+               N            Mean         Std Dev         Minimum         Maximum
+               ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+               1       1.0000000               .       1.0000000       1.0000000
+               ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ

@@ -1,4 +1,4 @@
-1                                       The SAS System              22:39 Tuesday, July 7, 2015
+1                                       The SAS System              22:42 Tuesday, July 7, 2015
 
 NOTE: Copyright (c) 2002-2008 by SAS Institute Inc., Cary, NC, USA. 
 NOTE: SAS (r) Proprietary Software 9.2 (TS2M3) 
@@ -8,8 +8,8 @@ NOTE: This session is executing on the X64_VSHOME  platform.
 
 
 NOTE: SAS initialization used:
-      real time           2.60 seconds
-      cpu time            1.13 seconds
+      real time           0.14 seconds
+      cpu time            0.12 seconds
       
 1          ** This is a draft SAS program **;
 2          data A;
@@ -18,8 +18,8 @@ NOTE: SAS initialization used:
 
 NOTE: The data set WORK.A has 1 observations and 1 variables.
 NOTE: DATA statement used (Total process time):
-      real time           0.28 seconds
-      cpu time            0.12 seconds
+      real time           0.01 seconds
+      cpu time            0.00 seconds
       
 
 5          
@@ -28,13 +28,24 @@ NOTE: DATA statement used (Total process time):
 8          run;
 
 NOTE: PROCEDURE CONTENTS used (Total process time):
-      real time           0.60 seconds
-      cpu time            0.21 seconds
+      real time           0.03 seconds
+      cpu time            0.01 seconds
       
 NOTE: The PROCEDURE CONTENTS printed page 1.
 
+9          
+10         proc means data=A;
+11         run;
+
+NOTE: There were 1 observations read from the data set WORK.A.
+NOTE: The PROCEDURE MEANS printed page 2.
+NOTE: PROCEDURE MEANS used (Total process time):
+      real time           0.14 seconds
+      cpu time            0.04 seconds
+      
+
 NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
 NOTE: The SAS System used:
-      real time           3.60 seconds
-      cpu time            1.49 seconds
+      real time           0.35 seconds
+      cpu time            0.20 seconds
       

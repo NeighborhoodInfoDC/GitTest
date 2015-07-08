@@ -6,3 +6,6 @@ run;
 ** Adding some new code **;
 proc contents data=A;
 run;
+
+proc means data=A;
+run;
