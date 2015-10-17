@@ -13,4 +13,7 @@ run;
 ** ADDED THIS IN DEVELOP-2 **;
 
 proc print data=A;
+
+proc freq data=A;
+ tables x;
 run;
