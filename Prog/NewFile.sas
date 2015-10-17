@@ -9,3 +9,7 @@ run;
 
 proc means data=A;
 run;
+
+proc freq data=A;
+ tables x;
+run;
