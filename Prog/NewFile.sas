@@ -1,6 +1,7 @@
 ** This is a draft SAS program **;
 data A;
  x = 1;
+ y = 2;
 run;
 
 ** Adding some new code **;
@@ -13,5 +14,6 @@ run;
 ** Adding some code to test stepping back **;
 
 proc freq data=A;
-  tables x;
+  tables x y;
 run;
+
