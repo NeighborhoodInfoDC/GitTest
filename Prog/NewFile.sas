@@ -9,3 +9,8 @@ run;
 
 proc means data=A;
 run;
+
+** ADDED THIS IN DEVELOP-2 **;
+
+proc print data=A;
+run;
