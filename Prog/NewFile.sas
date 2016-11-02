@@ -29,3 +29,8 @@ run;
 proc freq data=A;
   tables x * y;
 run;
+
+** More stuff to add **;
+data B;
+  z = 3;
+run;
