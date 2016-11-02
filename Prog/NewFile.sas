@@ -18,3 +18,9 @@ proc print data=A;
 proc freq data=A;
  tables x y;
 run;
+
+** Adding some code to test stepping back **;
+
+proc freq data=A;
+  tables x y;
+run;
