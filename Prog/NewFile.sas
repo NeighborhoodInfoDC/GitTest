@@ -16,5 +16,5 @@ run;
 proc print data=A;
 
 proc freq data=A;
- tables x;
+ tables x y;
 run;
