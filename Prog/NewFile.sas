@@ -24,3 +24,8 @@ run;
 proc freq data=A;
   tables x y;
 run;
+
+** Added to master branch **;
+proc freq data=A;
+  tables x * y;
+run;
