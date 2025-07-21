@@ -1,4 +1,5 @@
 ** This is a draft SAS program **;
+
 data A;
  x = 1;
  y = 2;
