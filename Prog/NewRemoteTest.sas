@@ -4,7 +4,7 @@
 
 %DCData_lib( GitTest )
 
-data A;
+data GitTest.A;
 
   a = 1;
 
