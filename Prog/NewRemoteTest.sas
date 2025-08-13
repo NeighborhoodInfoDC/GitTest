@@ -1,4 +1,4 @@
-%include "F:\DCData\SAS\Inc\StdRemote_test.sas";
+%include "F:\DCData\SAS\Inc\StdRemote_test.sas" /source2;
 
 %put _all_;
 
