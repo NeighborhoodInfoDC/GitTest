@@ -2,11 +2,7 @@
 
 %put _all_;
 
-options mprint nosymbolgen mlogic;
-
 %DCData_lib( GitTest )
-
-options mprint nosymbolgen nomlogic;
 
 %File_info( data=GitTest.Anc2023, stats= )
 
