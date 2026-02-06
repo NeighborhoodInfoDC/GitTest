@@ -1,5 +1,8 @@
-%include "F:\DCData\SAS\Inc\StdWorking.sas" /source2;
-/*****%include "F:\DCData\SAS\Inc\StdRemote_test.sas" /source2;****/
+%put %sysfunc( pathname( sasautos ) );
+
+
+/*****%include "F:\DCData\SAS\Inc\StdWorking.sas" /source2;****/
+%include "F:\DCData\SAS\Inc\StdRemote_test.sas" /source2;
 
 %put _all_;
 
