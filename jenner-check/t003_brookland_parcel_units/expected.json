@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-06-17T08:35:00Z",
+  "_captured_run_id": "r_019ed4b8890176e0a5ead4d5824b879e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote RealProp_Parcel_units (20 rows, 3 columns).",
+    "NOTE: Option TITLE2 changed to RealProp.Parcel_units.",
+    "NOTE: PROC PRINT completed: 19 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

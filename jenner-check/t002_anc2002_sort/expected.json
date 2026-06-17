@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-06-17T08:23:00Z",
+  "_captured_run_id": "r_019ed4ad209e71c38f80f63d202b9643",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 37 rows from DATALINES.",
+    "NOTE: Wrote ANC2002 (37 rows, 2 columns).",
+    "NOTE: PROC SORT data=ANC2002",
+    "NOTE: PROC PRINT completed: 37 observations printed, 1 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

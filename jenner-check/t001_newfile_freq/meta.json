@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_newfile_freq",
+  "source_file": "Prog/NewFile.sas",
+  "source_blob_sha": "d3185ede74f7c3c9149b739f86f63a527730dcdb",
+  "source_commit": "73434b793001d51120924441c7c8137f6d5b32cc",
+  "tier": "real_data",
+  "notes": "Self-contained draft program from the repo: DATA A (x=1,y=2), PROC CONTENTS/MEANS/PRINT, three PROC FREQ steps (one-way x, one-way y, and x*y crosstab), then DATA B (z=3). Runs verbatim with no substitution; only options obs=100 added in autoexec."
+}

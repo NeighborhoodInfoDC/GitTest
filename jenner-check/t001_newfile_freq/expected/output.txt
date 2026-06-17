@@ -1,0 +1,65 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: A
+Observations:  1
+Variables:     2
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  x          Num      8          
+  2  y          Num      8          
+
+-------------------------------------------------------------------------------
+
+                                                  The MEANS Procedure
+
+ Variable        N           Mean     Std Dev        Minimum        Maximum
+ --------------------------------------------------------------------------
+ x               1      1.0000000           .      1.0000000      1.0000000
+ y               1      2.0000000           .      2.0000000      2.0000000
+ --------------------------------------------------------------------------
+
+
+  Obs  x  y
+-----  -  -
+    1  1  2
+
+                                                   The FREQ Procedure
+
+                               Cumulative    Cumulative
+x    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------
+1            1    100.00            1       100.00
+
+                               Cumulative    Cumulative
+y    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------
+2            1    100.00            1       100.00
+                                                   The FREQ Procedure
+
+                               Cumulative    Cumulative
+x    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------
+1            1    100.00            1       100.00
+
+                               Cumulative    Cumulative
+y    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------
+2            1    100.00            1       100.00
+                                                   The FREQ Procedure
+
+Table of x by y
+
+x |         2 |      Total
+--+-----------+-----------
+1 |         1 |          1
+  |    100.00 |     100.00
+  |    100.00 |     100.00
+  |    100.00 |     100.00
+--+-----------+-----------
+Total |         1 |          1
+
