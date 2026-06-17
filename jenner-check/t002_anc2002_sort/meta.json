@@ -1,0 +1,8 @@
+{
+  "bundle": "t002_anc2002_sort",
+  "source_file": "Prog/ANC2002.sas",
+  "source_blob_sha": "ee0b044099e3af0a371bdeeecea2e93cc3f4f995",
+  "source_commit": "73434b793001d51120924441c7c8137f6d5b32cc",
+  "tier": "real_data",
+  "notes": "Author's DATA step building the DC Advisory Neighborhood Commissions (2002) lookup from 37 inline ANC codes, with the ANC2002_name derivation and variable labels kept verbatim, plus the original PROC SORT BY ANC2002. Site macros (%DCData_lib, %file_info, %Data_to_format), the %include of Stdhead.sas, the dbdbf libname, and PROC CATALOG/DATASETS format registration were removed because they depend on the org's external SAS include library; output redirected from General to WORK. A PROC PRINT (label) and PROC FREQ surface the sorted lookup."
+}

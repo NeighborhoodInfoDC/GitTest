@@ -1,0 +1,8 @@
+{
+  "bundle": "t003_brookland_parcel_units",
+  "source_file": "Prog/Brookland_manor.sas",
+  "source_blob_sha": "0b3e20a8659bbb14901ecb5e8913a7f8400a34f4",
+  "source_commit": "73434b793001d51120924441c7c8137f6d5b32cc",
+  "tier": "real_data",
+  "notes": "Final RealProp.Parcel_units report from the Brookland Manor / Brentwood Village program: the author's 19-SSL WHERE IN-list filter, ID ssl, the unit-count VAR columns, and the SUM, kept as written. The site libraries (PresCat, RealProp, Mar) and the %DCData_lib / %include scaffolding live on the org's server, so autoexec.sas builds a small RealProp.Parcel_units stand-in with the selected SSLs plus units_total and units_residential. The original named the unit columns via the units_: prefix list; here they are written explicitly, which is exactly what units_: expands to in the bundled data. Output: 19 rows printed, column totals 124 and 122."
+}

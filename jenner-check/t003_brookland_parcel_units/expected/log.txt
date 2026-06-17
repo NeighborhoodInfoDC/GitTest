@@ -1,0 +1,17 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA RealProp_Parcel_units
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote RealProp_Parcel_units (20 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE2 changed to RealProp.Parcel_units.
+NOTE: PROC PRINT data=RealProp_Parcel_units
+
+NOTE: PROC PRINT completed: 19 observations printed, 2 variables
